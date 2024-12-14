@@ -7,7 +7,7 @@ Tested against some Android Emulators and Kali Linux on Virtual Box.
 ## Compile it and use it 
 
 ```sh
-g++ -std=c++2a -O3 -g0 ./newgetevent.cpp &&  ./a.out > keyeventskaliexample.txt
+g++ -std=c++2a -O3 -g0 ./newgetevent.cpp &&  ./a.out > keyeventskaliexample.csv
 ```
 
 
