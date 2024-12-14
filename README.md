@@ -1,6 +1,6 @@
 # dumps all available keyevents to csv
 
-It's like getevent -lp, but dumps the output as CSV 
+It's like ```getevent -lp``` (and actually based on it), but dumps the output as CSV 
 
 Tested against some Android Emulators and Kali Linux on Virtual Box. 
 
