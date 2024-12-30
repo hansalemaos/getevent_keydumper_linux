@@ -21,10 +21,10 @@
 #include <sys/poll.h>
 #include <unistd.h>
 #include <vector>
+#include <string_view>
 
 #if __has_include(<format>)
 #include <format>
-#include <string_view>
 
 #define HAS_STD_FORMAT 1
 #else
