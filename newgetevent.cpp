@@ -96,7 +96,7 @@ static std::string dump_struct_vector_as_csv(sva &v)
     sva::iterator it{v.begin()};
     while (it != v.end())
     {
-#if HAS_STD_FORMAT
+#if __has_include(<format>)
         outputstring.append(std::format(
             "\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\","
             "\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\",\"{}\"\n",
