@@ -25,7 +25,6 @@
 
 #if __has_include(<format>)
 #include <format>
-
 #define HAS_STD_FORMAT 1
 #else
 #define HAS_STD_FORMAT 0
