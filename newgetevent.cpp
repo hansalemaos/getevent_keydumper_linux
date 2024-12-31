@@ -12,6 +12,8 @@
 //// #include <sys/limits.h>
 #include <algorithm>
 #include <array>
+#include <string>
+#include <fstream>
 #include <cstring>
 #include <fstream>
 #include <iomanip>
