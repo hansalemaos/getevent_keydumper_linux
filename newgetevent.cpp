@@ -22,7 +22,7 @@
 #include <unistd.h>
 #include <vector>
 #include <string_view>
-
+#include <sstream>
 #if __has_include(<format>)
 #include <format>
 #define HAS_STD_FORMAT 1
